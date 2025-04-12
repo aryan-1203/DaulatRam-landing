@@ -3,13 +3,13 @@ import './UpcomingEvents.css';
 
 const events = [
   {
-    title: 'RSI – Indianapolis, IN',
+    title: 'RSI – India',
     shortDate: 'Feb-17-2025',
     dateRange: 'May 20-22, 2025',
     image: '/images/invitation.jpg'
   },
   {
-    title: 'Africa Rail – Johannesburg',
+    title: 'Africa Rail',
     shortDate: 'Mar-10-2025',
     dateRange: 'May 13-14, 2025',
     image: '/images/invitation.jpg'
