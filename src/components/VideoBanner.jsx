@@ -8,7 +8,6 @@ const VideoBanner = () => {
       className="video-banner-container"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7 }}
     >
       <video
         className="video-banner"
