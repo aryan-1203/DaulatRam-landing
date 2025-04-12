@@ -1,0 +1,77 @@
+.upcoming-events-wrapper {
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .upcoming-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .title-underline {
+    width: 60px;
+    height: 5px;
+    background-color: #fa541c;
+    border-radius: 10px;
+    margin: 0.5rem auto 2rem;
+  }
+  
+  .upcoming-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  .upcoming-banner img {
+    width: 600px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upcoming-events-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .event-box {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  .event-thumbnail {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .event-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .event-date {
+    color: #fa541c;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .event-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0.2rem 0;
+    color: #111;
+  }
+  
+  .event-range {
+    font-size: 15px;
+    color: #333;
+  }
+  

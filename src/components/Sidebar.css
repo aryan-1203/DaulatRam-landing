@@ -1,0 +1,6 @@
+/* Increase font size of sidebar items */
+.ant-menu-item {
+    font-size: 16px !important;
+    /* padding: 16px 24px; */
+  }
+  

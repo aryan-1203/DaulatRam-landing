@@ -1,0 +1,112 @@
+.testimonials-container {
+    padding: 4rem 2rem;
+    /* background-color: #f9f9f9; */
+  }
+  
+  .testimonial-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .testimonial-grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+  .categories-underline {
+    width: 60px;
+    height: 6px;
+    background-color: orange;
+    border-radius: 4px;
+    margin: 0.5rem auto 2rem;
+  }
+  
+  .testimonial-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .testimonial-avatar {
+    margin-right: 1rem;
+    background-color: #ffa500;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .testimonial-bubble {
+    position: relative;
+    background-color: #ffffff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .testimonial-bubble::before {
+    content: '';
+    position: absolute;
+    left: -12px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #ffffff;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  .testimonial-author {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-title {
+      font-size: 28px;
+    }
+  
+    .testimonial-grid-2x2 {
+      grid-template-columns: 1fr;
+    }
+  
+    .testimonial-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .testimonial-avatar {
+      margin: 0 0 10px 0;
+    }
+  
+    .testimonial-bubble::before {
+      left: 50%;
+      transform: translateX(-50%) rotate(90deg);
+      top: -12px;
+      border-top: none;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-bottom: 12px solid #fff;
+    }
+  }
+  
